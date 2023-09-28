@@ -35,7 +35,4 @@ python music.py
     Provide the path to an image file (e.g., thumbnail.jpg) that will be used as the video background.
 
 The script will download the audio from the YouTube/Soundcloud link, upscale the image to 1920x1080 resolution, and create a video using the audio and image.
-
-Expected Output
-
 After running the script, you will find the generated music video in the same directory as the script, named as output_video.mp4.
