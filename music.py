@@ -65,6 +65,9 @@ def main():
     # Sanitize the image file input to remove commas and quotes
     image_file = sanitize_input(image_file_input)
 
+    if os.path.exists('downloaded_audio.mp3'):
+        os.remove('downloaded_audio.mp3')
+
     download_song(link)
 
     if not os.path.exists('downloaded_audio.mp3'):
